@@ -452,7 +452,7 @@
   requirement: |
     Сайт должен хранить корзину в сессии браузера
   prerequisites: |
-    Открыта главная страница магазина Hexlet Store на мобильном устройстве
+    Открыта главная страница магазина Hexlet Store
   test-data: |
     https://hexlet-products-store.vercel.app/
   steps:
@@ -461,6 +461,21 @@
   expected-result: |
     Отображена корзина, содержащая товар "iphone 9"
   steps:
+    - Обновить страницу сайта
+  expected-result: |
+    Отображена корзина, содержащая товар "iphone 9"
+
+- summary: |
+    Проверка хранения корзины в сессии браузера
+  requirement: |
+    Сайт должен хранить корзину в сессии браузера
+  prerequisites: |
+    Открыта главная страница магазина Hexlet Store
+  test-data: |
+    https://hexlet-products-store.vercel.app/
+    В корзину добавлен товар "iphone 9"
+  steps:
+    - Нажать кнопку "Delete"
     - Обновить страницу сайта
   expected-result: |
     Отображена корзина, содержащая товар "iphone 9"
