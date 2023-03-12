@@ -475,7 +475,7 @@
     https://hexlet-products-store.vercel.app/
     В корзину добавлен товар "iphone 9"
   steps:
-    - Нажать кнопку "Delete"
+    - Нажать кнопку "Clear cart"
     - Обновить страницу сайта
   expected-result: |
     Отображена корзина, содержащая товар "iphone 9"
