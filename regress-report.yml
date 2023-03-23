@@ -2,95 +2,95 @@
 test-cases:
   - summary: |
       Проверка переключения языка на русский
-  status: pass
+    status: pass
   
   - summary: |
       Проверка переключения языка на английский
-  status: pass
+    status: pass
   
   - summary: |
       Проверка просмотра страницы с товарами
-  status: pass
+    status: pass
     
   - summary: |
       Проверка просмотра подробной информации о товаре
-  status: pass
+    status: pass
     
   - summary: |
       Проверка поиска товаров по ключевому слову
-  status: pass
+    status: pass
     
   - summary: |
       Проверка поиска товаров по категории
-  status: pass
+    status: pass
     
   - summary: |
       Проверка фильтрациии товаров по производителю
-  status: pass
+    status: pass
   
   - summary: |
       Проверка фильтрациии товаров по наличию
-  status: pass
+    status: pass
     
   - summary: |
       Проверка фильтрациии товаров, которых нет в наличии
-  status: pass
+    status: pass
   
   - summary: |
       Проверка фильтрациии товаров по цене
-  status: pass
+    status: pass
   
   - summary: |
       Проверка фильтрациии товаров по цене, если значение "To" меньше, чем "From"
-  status: fail
+    status: fail
     
   - summary: |
       Проверка добавления товара в корзину и просмотр содержимого корзины
-  status: pass
+    status: pass
     
   - summary: |
       Проверка добавления товара в ограниченном количестве в корзину
-  status: pass
+    status: pass
     
   - summary: |
       Проверка добавления товара в корзину с последующим выбором другого товара
-  status: pass
+    status: pass
     
   - summary: |
       Проверка удаления товара из корзины с последующим выбором другого товара
-  status: pass
+    status: pass
     
   - summary: |
       Проверка оформления заказа
-  status: pass
+    status: pass
     
   - summary: |
       Проверка безопасности сайта
-  status: pass
+    status: pass
     
   - summary: |
       Проверка мобильной версии
-  status: pass
+    status: pass
     
   - summary: |
       Проверка оформления заказа в браузере Google Chrome
-  status: pass
+    status: pass
     
   - summary: |
       Проверка оформления заказа в браузере Mozilla Firefox
-  status: pass
+    status: pass
     
   - summary: |
       Проверка оформления заказа в браузере Opera
-  status: pass
+    status: pass
   
   - summary: |
       Проверка хранения корзины в сессии браузера
-  status: pass
+    status: pass
 
   - summary: |
       Проверка хранения корзины в сессии браузера (удаление корзины)
-  status: fail
+    status: fail
     
 bugreports:
   - summary: |    
